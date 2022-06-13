@@ -4,7 +4,7 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     container:
-        image: aswf/ci-package-usd:2022-21.11
+        image: aswf/ci-usd:2021
     steps:
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
       - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
